@@ -7,15 +7,13 @@ choco install -y mongodb
 
 ## Derek Preferences
 choco install -y winmerge
-choco install -y winscp
+# choco install -y winscp
 choco install -y ccleaner
-
+# choco install -y putty
 
 ## Checkout Git Repos
 # First - Setup SSH so git clone works without errors
 cd C:\SourceControl\Git\
-mkdir TestScripts
-cd .\TestScripts
 git clone civicplus@vs-ssh.visualstudio.com:v3/civicplus/Kraken/Kraken
 git clone civicplus@vs-ssh.visualstudio.com:v3/civicplus/Kraken/Kraken-docker
 git clone civicplus@vs-ssh.visualstudio.com:v3/civicplus/CivicNotify/CivicNotify

@@ -16,15 +16,15 @@ choco install -y resharper dotcover dotpeek
 choco install -y sql-server-management-studio
 
 choco install -y slack
-choco install -y putty
 
 # Get Visual Studio C++ Redistributables
-## Unsure if still needed??
+## Needed for SASS
 choco install -y vcredist2015
 
 
 ## Docker + HyperV
 ## Maybe add Sql Server Docker container install??
+## Will need to enable Virtualization in Bios
 choco install -y Microsoft-Hyper-V-All --source="'windowsFeatures'"
 Enable-WindowsOptionalFeature -Online -FeatureName containers -All
 RefreshEnv
@@ -39,7 +39,6 @@ choco install -y microsoftazurestorageexplorer
 
 ## Terraform - Nice to have in future.
 ## choco install -y terraform
-
 
 ## Git IDE = Choose your favorite?
 choco install -y sourcetree
