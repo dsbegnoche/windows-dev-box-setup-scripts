@@ -6,10 +6,10 @@ choco install -y firefox
 ## Dev Tools
 choco install -y vscode
 choco install -y git --package-parameters="'/GitAndUnixToolsOnPath /WindowsTerminal'"
-choco install -y python
 choco install -y 7zip.install
 choco install -y sysinternals
 choco install -y notepadplusplus
+choco install -y postman
 
 choco install -y visualstudio2017professional
 choco install -y resharper dotcover dotpeek
