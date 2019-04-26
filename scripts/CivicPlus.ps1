@@ -11,7 +11,7 @@ choco install -y sysinternals
 choco install -y notepadplusplus
 choco install -y postman
 
-choco install -y visualstudio2017professional
+choco install -y visualstudio2019professional
 choco install -y resharper dotcover dotpeek
 choco install -y sql-server-management-studio
 
