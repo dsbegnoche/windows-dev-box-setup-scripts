@@ -24,4 +24,4 @@ git clone civicplus@vs-ssh.visualstudio.com:v3/civicplus/Preamble/preamble
 
 ## Install HCMS Docker Dependencies
 cd .\Kraken-docker\dependencies
-docker-config -f .\docker-compose.yml up -d
+docker-compose -f .\docker-compose.yml up -d
