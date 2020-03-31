@@ -16,9 +16,7 @@ function removeApp {
 }
 
 $applicationList = @(
-	"Microsoft.BingFinance"
 	"Microsoft.3DBuilder"
-	"Microsoft.BingFinance"
 	"Microsoft.BingNews"
 	"Microsoft.BingSports"
 	"Microsoft.BingWeather"
@@ -57,6 +55,7 @@ $applicationList = @(
 	"*.EclipseManager"
 	"ActiproSoftwareLLC.562882FEEB491" # Code Writer
 	"*.AdobePhotoshopExpress"
+	"Microsoft.BingFinance"
 );
 
 foreach ($app in $applicationList) {
